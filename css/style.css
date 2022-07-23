@@ -1,0 +1,205 @@
+.mainBg
+{
+    background-color:#F1F1F1;
+}
+
+.navbar
+{
+    z-index: 999999;
+    transition: 2s all;
+}
+
+.navbar li a
+{
+    color: white;
+}
+
+.navbar li a:hover
+{
+    color: rgb(122, 9, 9);
+}
+
+.home
+{
+    background-image: url("../images/slider/slider-01.jpg");
+    background-size: 100% 100%;
+}
+
+.homeLayer
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.homeContent p
+{
+    font-size: 25px;
+}
+
+.homeContent h1
+{
+    font-size: 70px;
+    color: rgb(236, 39, 115);
+}
+
+.imgFrame
+{
+    border: 10px solid rgb(114, 123, 139);
+    top: -30px;
+    left: -30px;
+    z-index: 0;
+}
+
+
+.aboutImg img
+{
+    z-index: 99999;
+}
+
+.aboutInfo
+{
+    /* width: 90%; */
+}
+
+.bold
+{
+    font-weight: bolder;
+}
+
+.info
+{
+    line-height: 2.5;
+}
+
+.info h3::before
+{
+    height: 10px;
+    width: 5px;
+    background-color: red;
+}
+
+.aboutBtn
+{
+    background-color: #ff305b;
+    color: white;
+}
+
+.aboutBtn:hover
+{
+    background-color: #EC2403;
+    color: white;
+}
+
+.services,.counter
+{
+    background-color: #F1F1F1;
+}
+
+.servicesColContent:hover
+{
+    background-color: white;
+}
+
+.servicesColContent
+{
+    transition: 1s all;
+    border-radius: 10px;
+}
+
+.servicesColContent h4
+{
+    font-size: 22px;
+}
+
+.line-2
+{
+    background-color: black;
+    height: 1px;
+    width: 150px;
+    margin: 5px auto;
+}
+.line-1
+{
+    background-color: black;
+    height: 1px;
+    width: 80px;
+    margin: auto;
+}
+
+.portfolioColContent:hover .imgLayer
+{
+    top: 0 !important;;
+}
+
+.yel
+{
+    color: rgb(214, 214, 27);
+}
+
+.whit
+{
+    color: rgb(233, 217, 217);
+}
+
+.shape
+{
+    transform: rotate(132deg);
+    left: -15%;
+    top: -15%;
+}
+
+.imgVideo
+{
+    height:200px !important;
+}
+
+.conForm
+{
+    width: 60%;
+}
+
+.footer
+{
+    background-color: #333333;
+}
+
+@media screen and (max-width : 600px){
+    .homeContent h1
+    {
+        font-size: 40px;
+    }
+
+    .imgVideo
+    {
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width : 767px){
+    .fed img
+    {
+        width:50% !important;
+    }
+    .conForm
+{
+    width: 90% !important;
+}
+}
+
+@media screen and (min-width : 601px) and (max-width : 995px){
+    .aboutInfo 
+    {
+        font-size: 14px;
+    }
+
+    .fed
+    {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width : 990px) and (max-width : 1200px){
+    .servicesColContent h4
+{
+    font-size: 18px;
+}
+}
