@@ -172,6 +172,8 @@
     {
         height: 400px !important;
     }
+
+    
 }
 
 @media screen and (max-width : 767px){
@@ -183,6 +185,13 @@
 {
     width: 90% !important;
 }
+
+.fed
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
 }
 
 @media screen and (min-width : 601px) and (max-width : 995px){
