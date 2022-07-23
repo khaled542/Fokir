@@ -173,6 +173,11 @@
         height: 400px !important;
     }
 
+    .fed
+    {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
     
 }
 
@@ -186,12 +191,6 @@
     width: 90% !important;
 }
 
-.fed
-    {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-    
 }
 
 @media screen and (min-width : 601px) and (max-width : 995px){
